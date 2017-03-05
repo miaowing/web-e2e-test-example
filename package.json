@@ -1,0 +1,18 @@
+{
+  "name": "web-e2e-test-example",
+  "version": "1.0.0",
+  "description": "web e2e test based on night watch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run e2e",
+    "e2e": "node tests/e2e/runner.js"
+  },
+  "author": "miaowing",
+  "license": "MIT",
+  "devDependencies": {
+    "chromedriver": "^2.27.3",
+    "cross-spawn": "^5.1.0",
+    "nightwatch": "^0.9.12",
+    "selenium-server": "^3.1.0"
+  }
+}

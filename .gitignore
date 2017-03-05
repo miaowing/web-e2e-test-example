@@ -1,0 +1,4 @@
+.idea/
+tests/e2e/reports/
+node_modules/
+selenium-debug.log
